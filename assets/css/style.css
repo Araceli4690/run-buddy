@@ -103,8 +103,8 @@ section {
 }
 /* Hero Style End */
 
+/* What We Do Section start */
 .intro {
-    text-align: center;
 }
 .intro h2 {
 }
@@ -114,49 +114,73 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
-}
-.steps {
     text-align: center;
+}
+/* What We Do Section End */
+
+/* What Your Do Section Start */
+.steps {
     background: #fce138;
+}
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;   
 }
 .steps h2 {
 }
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    display: inline-block;
-}
-
-.primary-border {
-    border-color: #39a6b2;
-}
-.secondary-border {
-    border-color: #39a6b2
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 .steps div {
-    margin-bottom: 80px;
 }
-.steps img {
-    width: 15%;
-    margin: 10px 0;
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
 }
-.steps h3 {
+.step-img img {
+    max-width: 100%;
+}
+.step h3 {
+    flex: 1 30%;
     color: #024e76;
     font-size: 46px;
-    margin-top: 10px;
 }
-.steps p {
+.step-text {
+    flex: 12;
+}
+.step-text p {
     color: #39a6b2;
-    font-size: 23px;
+    font-size: 18px;
+}
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+}
+.step-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 2 70%;
 }
 .steps span {
-    font-size: 38px;
 }
+/* What Your Do Section End */
+
+/* Meet Your Trains Section Start */
 .trainers {
-    text-align: center;
     overflow: auto;
 }
 .trainer {
@@ -177,12 +201,6 @@ section {
     width: 65%;
     overflow: auto;
 }
-.text-left {
-    text-align: left;
-}
-.text-right {
-    text-align: right;
-}
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -196,8 +214,10 @@ section {
     font-size: 17px;
     line-height: 1.3;
 }
+/* Meet Your Trains Section End */
+
+/* Reach out section Start */
 .contact {
-    text-align: center;
     background: #024e76;
 }
 .contact h2 {
@@ -228,6 +248,9 @@ section {
 .contact-info a {
     color: #fce138;
 }
+/* Reach out section End */
+
+/* Footer Section Start */
 footer {
     display: flex;
     justify-content: space-between;
@@ -248,4 +271,21 @@ footer div {
 }
 footer a {
     color: #024e76;
+}
+
+/* Utility Classes */
+.primary-border {
+    border-color: #39a6b2;
+}
+.secondary-border {
+    border-color: #39a6b2
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.flex-row {
+    display: flex;
 }
