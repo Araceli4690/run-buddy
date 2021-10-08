@@ -16,7 +16,7 @@ Run-buddy is a service that lets runners link up with personal trainers. This ap
 - css
 
 ## Getting-started
-To view the application you can either clone the repo and open the html page on your prefered browser or you can go to the following link to view the deployed application https://lernantino.github.io/run-buddy/. 
+To view the application you can either clone the repo and open the html page on your prefered browser or you can go to the following link to view the deployed application https://araceli4690.github.io/run-buddy/. 
 
 - sample of app
 
